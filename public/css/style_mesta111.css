@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .container h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+
+  .screen {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .seat {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: #eee;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .seat.selected {
+    background-color: #333;
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .seat.occupied {
+    background-color: #999;
+    border-color: #333;
+    cursor: default;
+  }
+
+  .seat:hover {
+    transform: scale(1.2);
+  }
+
+  .availability {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .availability p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .availability .available {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .availability .occupied {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+  }

@@ -1,0 +1,62 @@
+/* Блок с классом container взят с Bootstrap */
+/* Настройка стилей таблицы на странице seat.html */
+/* Выравниваем таблицу по центру и задаем расстояние между ячейками */
+table.table-seat {
+	margin: 0 auto;
+	border-spacing: 10px;
+	border-collapse: separate;
+	width: 85%; /*Уменьшаем таблицу по ширине*/
+}
+	/* Задаем размер и цвет ячейкам таблицы */
+	td.seat {
+		width: 50px;
+		height: 50px;
+		border-radius: 10px;
+		background-color: #d3d3d3;
+	}
+/* При нажатии на ячейку серого цвета, она поменяет свой цвет на зеленый */
+/* В HTML коде ячейкам, которые можно выбрать, прописан атрибут tabindex */
+/* Он позволяет задать фокус обьектам, такие как ячейка */
+	td.seat:focus {
+		background-color: green;
+		color: white;
+	}
+
+	td.seat.screen {
+		background-color: #000421;
+		border-radius: 30px;
+		border: none;
+	}
+
+	td.seat.covid-19 {
+		background-color: #95043f;
+		color: white;
+	}
+
+	td.seat.selected {
+		background-color: green;
+	}
+
+/* Нижний блок с "легендой" о цвете ячеек и что они обозначают */
+div.legend {
+	display: flex;
+	flex-direction: row;
+}
+/* Конец настройки стилей страницы seat.html */
+
+/* Прижимаем футер на странице login.html */
+#footer {
+	margin-top: 10%;
+}
+
+#test2{
+    width: 100px;
+    height: 40px;
+    left: 10px;
+    top: 0px;
+    position: static;
+    color: #ee0c0c;
+    font-size:40px;
+    font-family: "Mistral"
+ }
+/* ------------------------------------- */

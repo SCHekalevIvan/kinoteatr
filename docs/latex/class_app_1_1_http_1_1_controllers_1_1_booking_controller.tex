@@ -1,0 +1,62 @@
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_booking_controller}{}\doxysection{Booking\+Controller Class Reference}
+\label{class_app_1_1_http_1_1_controllers_1_1_booking_controller}\index{BookingController@{BookingController}}
+Inheritance diagram for Booking\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_booking_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_booking_controller_a3e272cccc9905a14965bc25711b74247}{index}} (\mbox{\hyperlink{class_app_1_1_models_1_1_movie}{Movie}} \$movie)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_booking_controller_ad42bb3e7f959e6adea7403368ed85067}{store}} (Request \$request, \mbox{\hyperlink{class_app_1_1_models_1_1_movie}{Movie}} \$movie, Store \$session)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Контроллер бронирования. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_booking_controller_a3e272cccc9905a14965bc25711b74247}\label{class_app_1_1_http_1_1_controllers_1_1_booking_controller_a3e272cccc9905a14965bc25711b74247}} 
+\index{BookingController@{BookingController}!index@{index}}
+\index{index@{index}!BookingController@{BookingController}}
+\doxysubsubsection{\texorpdfstring{index()}{index()}}
+{\footnotesize\ttfamily index (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_app_1_1_models_1_1_movie}{Movie}}}]{\$movie }\end{DoxyParamCaption})}
+
+Отображает страницу бронирования для указанного фильма.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Movie & {\em \$movie} & Фильм, для которого отображается страница бронирования. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\textbackslash{}\+Illuminate\textbackslash{}\+View\textbackslash{}\+View 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_booking_controller_ad42bb3e7f959e6adea7403368ed85067}\label{class_app_1_1_http_1_1_controllers_1_1_booking_controller_ad42bb3e7f959e6adea7403368ed85067}} 
+\index{BookingController@{BookingController}!store@{store}}
+\index{store@{store}!BookingController@{BookingController}}
+\doxysubsubsection{\texorpdfstring{store()}{store()}}
+{\footnotesize\ttfamily store (\begin{DoxyParamCaption}\item[{Request}]{\$request,  }\item[{\mbox{\hyperlink{class_app_1_1_models_1_1_movie}{Movie}}}]{\$movie,  }\item[{Store}]{\$session }\end{DoxyParamCaption})}
+
+Создает новое бронирование для указанного фильма.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Request & {\em \$request} & Входные данные запроса. \\
+\hline
+Movie & {\em \$movie} & Фильм, для которого создается бронирование. \\
+\hline
+Store & {\em \$session} & Объект сессии. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\textbackslash{}\+Illuminate\textbackslash{}\+Http\textbackslash{}\+Redirect\+Response 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+OSPanel/domains/\+Cinema\+TIcket\+Docs/app/\+Http/\+Controllers/Booking\+Controller.\+php\end{DoxyCompactItemize}

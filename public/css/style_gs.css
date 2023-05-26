@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #000421;
+    color: #fff;
+    padding: 0 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+
+#test1{
+    height: 75px;
+    left: 10px;
+    top: 0px;
+    position: static;
+    color: #ee0c0c;
+    font-size:55px;
+    font-family: "Mistral"
+ }
+
+
+/* h1 {
+    text-align: center;
+    margin-top: 810px;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+} */
+
+.button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.primary {
+    background-color: #f44336;
+}
+
+.secondary {
+    background-color: #2196f3;
+}
+
+.tertiary {
+    background-color: #9c27b0;
+}
+
+.my-image {
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+  }
+/* .test {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  } */
+
+  main {
+    padding: 20px;
+   }
+   table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+   }
+   th, td, tr {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+   }
+   th {
+    background-color: #333;
+    color: #fff;
+   }
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b3f8a5dc;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #d4f0fd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .container h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+
+  .contact {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contact p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+  }
+
+  .contact a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .contact a:hover {
+    color: #555;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+
+
+  /* .icon-phone {
+    background-image: url('https://unpkg.com/css.gg@2.0.0/icons/css/phone.css');
+  }
+
+  .icon-email {
+    background-image: url('https://unpkg.com/css.gg@2.0.0/icons/css/mail-open.css');
+  } */

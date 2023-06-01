@@ -36,7 +36,7 @@
                     <form action="{{ route('admin.deleteBooking', $booking->id) }}" method="POST">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" class="delete-btn">Удалить</button>
+                        <button type="submit" class="delete-btn" style ="border-radius: 10px;">Удалить</button>
                     </form>
                 </td>
             </tr>
